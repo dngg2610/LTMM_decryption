@@ -23,9 +23,8 @@ Nhap do dai cua vector S: 256
 
 Nhap do dai cua khoa K: 5
 
-Nhap gia tri cua K:
+Nhap gia tri cua K: 1 2 3 4 5
 
-1 2 3 4 5
 Nhap chieu dai chuoi Ciphertext: 44
 
 Nhap Ciphertext: Ä ½ Ò ­ ¹ ª ...   (các ký tự mã hóa từ bước mã hóa trước đó)
@@ -39,11 +38,15 @@ Chương trình sẽ hiển thị:
 
 Khoi tao gia tri ban dau cua S !
 0 1 2 3 ... 255
+
 Vector khoi tao T !
 1 2 3 4 5 ...
+
 Vector hoan vi S !
 ...
+
 Dong khoa la: 57 12 203 99 ...
+
 Plaintext la: H a n o i   U n i v e r s i t y   o f   S c i e n c e   a n d   T e c h n o l o g y
 
 
