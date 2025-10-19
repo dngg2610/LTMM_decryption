@@ -6,6 +6,7 @@ RC4 sử dụng cùng khóa K và vector S để tạo lại dòng khóa, sau đ
 ⚙️ Cách biên dịch và chạy
 Mở terminal trong thư mục chứa mã nguồn (thư mục có file main.c của phần decrypt).
 Biên dịch toàn bộ chương trình:
+
 gcc *.c -o rc4_decrypt.exe
 
 Chạy chương trình:
@@ -19,10 +20,14 @@ Chạy chương trình:
 Nếu ciphertext được tạo từ phần Encryption trước đó, hãy nhập lại đúng cùng thông số:
 
 Nhap do dai cua vector S: 256
+
 Nhap do dai cua khoa K: 5
+
 Nhap gia tri cua K:
+
 1 2 3 4 5
 Nhap chieu dai chuoi Ciphertext: 44
+
 Nhap Ciphertext: Ä ½ Ò ­ ¹ ª ...   (các ký tự mã hóa từ bước mã hóa trước đó)
 
 
